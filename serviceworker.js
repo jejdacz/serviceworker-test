@@ -38,9 +38,10 @@ self.addEventListener("fetch", e => {
         });
         return res;
       })
-      //.catch(err => caches.match(e.request).then(res => res))
+      .catch(err => caches.match(e.request).then(res => res))
+    /*
       .catch(err =>
         caches.open(cacheName).then(cache => cache.match(e.request))
-      )
+      )*/
   );
 });
