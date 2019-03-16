@@ -23,7 +23,7 @@ self.addEventListener("activate", e => {
   );
 });
 
-// call fetch event *note: if page isn't visited it won't be cached
+// call fetch event *note: if page isn't visited it's not cached
 self.addEventListener("fetch", e => {
   console.log("Service Worker: Fetching");
   e.respondWith(
