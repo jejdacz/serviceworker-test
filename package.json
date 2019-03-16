@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/jejdacz/serviceworker-test/issues"
   },
-  "homepage": "https://github.com/jejdacz/serviceworker-test#readme"
+  "homepage": "https://github.com/jejdacz/serviceworker-test#readme",
+  "devDependencies": {}
 }
