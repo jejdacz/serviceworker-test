@@ -17,5 +17,7 @@
     "url": "https://github.com/jejdacz/serviceworker-test/issues"
   },
   "homepage": "https://github.com/jejdacz/serviceworker-test#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^5.15.2"
+  }
 }
